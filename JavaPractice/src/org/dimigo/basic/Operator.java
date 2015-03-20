@@ -12,10 +12,10 @@ public class Operator {
 		
 		if (aa>bb) {
 			System.out.println("사다리꼴이 평행사변형 보다 " + (aa-bb)+ "더 큽니다.");
-		} else {
+		} else if ( bb>aa){
 			System.out.println(" 평행사변형이 사다리꼴 보다 " + (bb-aa)+ "더 큽니다.");
-
-			
+		} else {
+			System.out.println("사다리꼴과 평행사변형의 넓이가 같습니다. ");
 		}
 	}
 
