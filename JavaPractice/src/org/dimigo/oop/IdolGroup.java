@@ -13,9 +13,14 @@ public class IdolGroup {
 	
 	for(int i=0; i<idolGroup.length; i++) {
 		System.out.println("<<"+ idolGroup[i] + " >> ");
-		for(String value : members[i]) {
-			System.out.println(value);
+		
+		for(int j=0; j<members[i].length; j++) {
+			System.out.println(members[i][j]);
 		}
+		
+//		for(String value : members[i]) {
+//			System.out.println(value);
+//		}
 		System.out.println();
 	}
 	
