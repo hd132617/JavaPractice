@@ -28,6 +28,7 @@ public class Movie {
 	private String userRating;
 	/**
 	 * @return the title
+	 * 
 	 */
 	public String getTitle() {
 		return title;

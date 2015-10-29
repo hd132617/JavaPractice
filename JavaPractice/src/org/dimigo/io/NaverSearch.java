@@ -97,6 +97,7 @@ public class NaverSearch {
 	        
 	        int n =1;
 	        
+	        
 	        try(BufferedWriter bw = new BufferedWriter (new FileWriter("files/movies.txt")))
 	        {
 	        	for (Movie movie : movieList)

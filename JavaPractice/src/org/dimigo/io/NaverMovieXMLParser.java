@@ -83,6 +83,7 @@ public class NaverMovieXMLParser {
 				movieList.add(movie);
 			}
 			
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
