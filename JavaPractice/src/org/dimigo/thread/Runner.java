@@ -10,6 +10,7 @@ public class Runner extends Thread{
 		this.name = name;
 	}
 	
+	
 	public void run(){
 		int meter = 100;
 		System.out.println(name +"출발");
